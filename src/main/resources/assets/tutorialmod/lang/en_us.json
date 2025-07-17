@@ -4,5 +4,6 @@
   "block.tutorialmod.lemon_bricks": "Lemon Bricks",
   "item.tutorialmod.lemon_bricks": "Lemon Bricks",
   "block.tutorialmod.lemon_log": "Lemon Tree Log",
-  "itemgroup.tutorialmod.mod_items": "Mod Items"
+  "itemgroup.tutorialmod.mod_items": "Mod Items",
+  "item.tutorialmod.lemon": "Lemon"
 }

@@ -20,6 +20,7 @@ public class ModItemGroups {
                                 entries.add(ModItems.PIG_TOKAN);
                                 entries.add(ModBlocks.LEMON_LOG);
                                 entries.add(ModBlocks.LEMON_BRICKS);
+                                entries.add(ModItems.LEMON);
 
 
                             })).build());

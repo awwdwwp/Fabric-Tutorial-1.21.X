@@ -11,6 +11,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item TOKAN = registerItem("tokan", new Item(new Item.Settings()));
     public static final Item PIG_TOKAN = registerItem("pig_tokan", new Item(new Item.Settings()));
+    public static final Item LEMON = registerItem("lemon", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
@@ -21,6 +22,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(TOKAN);
             fabricItemGroupEntries.add(PIG_TOKAN);
+            fabricItemGroupEntries.add(LEMON);
         });
     }
 
